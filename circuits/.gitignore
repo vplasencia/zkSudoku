@@ -1,0 +1,15 @@
+node_modules
+
+sudoku/ptau
+
+sudoku/sudoku_cpp
+sudoku/sudoku_js
+sudoku/sudoku_0000.zkey
+sudoku/sudoku_final.zkey
+sudoku/sudoku.r1cs
+sudoku/sudoku.sym
+sudoku/proof.json
+sudoku/public.json
+sudoku/verification_key.json
+sudoku/sudokuVerifier.sol
+sudoku/parameters.txt
