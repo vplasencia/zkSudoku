@@ -2,7 +2,7 @@
 
 zkSudoku is a platform that allows users to play zk (zero knowledge) Sudoku games.
 
-This project is part of the article: [How to create a Zero Knowledge DApp: From zero to production]().
+This project is part of the article: [How to create a Zero Knowledge DApp: From zero to production](https://vivianblog.hashnode.dev/how-to-create-a-zero-knowledge-dapp-from-zero-to-production).
 
 ## Run Locally
 
