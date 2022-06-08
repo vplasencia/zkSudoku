@@ -27,3 +27,13 @@ And after that, you can always run:
 ```bash
 ./executeGroth16.sh
 ```
+
+## Run tests
+
+```bash
+yarn test
+```
+
+When you run tests you will see something like this:
+
+![CircuitsTestsImage](https://user-images.githubusercontent.com/52170174/172546954-b90c6441-a63e-46a8-ad82-650475c2a35b.png)
