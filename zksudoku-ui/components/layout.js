@@ -30,22 +30,22 @@ export default function Layout({ children }) {
 
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://zksudoku.vercel.app/" />
+        <meta property="twitter:url" content="https://zk-sudoku.vercel.app/" />
         <meta property="twitter:title" content="zkSudoku" />
         <meta
           property="twitter:description"
           content="Zero Knowledge Sudoku Game"
         />
-        <meta property="twitter:image" content="/socialMedia.png" />
+        <meta property="twitter:image" content="https://zk-sudoku.vercel.app/socialMedia.png" />
 
         {/* Open Graph */}
         <meta property="og:type" content="website" key="ogtype" />
         <meta
           property="og:url"
-          content="https://zksudoku.vercel.app/"
+          content="https://zk-sudoku.vercel.app/"
           key="ogurl"
         />
-        <meta property="og:image" content="/socialMedia.png" key="ogimage" />
+        <meta property="og:image" content="https://zk-sudoku.vercel.app/socialMedia.png" key="ogimage" />
         <meta property="og:title" content="zkSudoku" key="ogtitle" />
         <meta
           property="og:description"
