@@ -13,7 +13,7 @@ fi
 
 # In case there is a ptau file number as an input
 if [ "$2" ]; then
-    CIRCUIT=$2
+    PTAU=$2
 fi
 
 # Check if the necessary ptau file already exists. If it does not exist, it will be downloaded from the data center
