@@ -37,5 +37,9 @@ module.exports = {
       url: "https://api.harmony.one",
       accounts: [process.env.PRIVATE_KEY],
     },
+    sepolia: {
+      url: "https://rpc.sepolia.org/",
+      accounts: [process.env.PRIVATE_KEY],
+    }
   },
 };
