@@ -9,24 +9,6 @@
     },
     "blockExplorerUrls": []
   },
-  "1666700000": {
-    "chainId": "1666700000",
-    "chainName": "Harmony Testnet Shard 0",
-    "rpcUrls": ["https://api.s0.b.hmny.io"],
-    "nativeCurrency": {
-      "symbol": "ONE"
-    },
-    "blockExplorerUrls": ["https://explorer.pops.one/"]
-  },
-  "1666600000": {
-    "chainId": "1666600000",
-    "chainName": "Harmony Mainnet Shard 0",
-    "rpcUrls": ["https://api.harmony.one"],
-    "nativeCurrency": {
-      "symbol": "ONE"
-    },
-    "blockExplorerUrls": ["https://explorer.harmony.one/"]
-  },
   "11155111": {
     "chainId": "11155111",
     "chainName": "Sepolia",
@@ -35,5 +17,14 @@
       "symbol": "ETH"
     },
     "blockExplorerUrls": ["https://sepolia.etherscan.io/"]
+  },
+  "80001": {
+    "chainId": "80001",
+    "chainName": "Mumbai",
+    "rpcUrls": ["https://rpc-mumbai.maticvigil.com"],
+    "nativeCurrency": {
+      "symbol": "MATIC"
+    },
+    "blockExplorerUrls": ["https://mumbai.polygonscan.com/"]
   }
 }

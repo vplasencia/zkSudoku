@@ -29,17 +29,13 @@ module.exports = {
     },
   },
   networks: {
-    harmonyTestnet: {
-      url: "https://api.s0.b.hmny.io",
-      accounts: [process.env.PRIVATE_KEY],
-    },
-    harmonyMainnet: {
-      url: "https://api.harmony.one",
-      accounts: [process.env.PRIVATE_KEY],
-    },
     sepolia: {
       url: "https://rpc.sepolia.org/",
       accounts: [process.env.PRIVATE_KEY],
-    }
+    },
+    mumbai: {
+      url: "https://rpc-mumbai.maticvigil.com",
+      accounts: [process.env.PRIVATE_KEY],
+    },
   },
 };
