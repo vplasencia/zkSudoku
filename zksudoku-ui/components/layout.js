@@ -1,21 +1,21 @@
-import Header from "./header";
-import Footer from "./footer";
-import Head from "next/head";
-import Script from "next/script";
-import { WagmiConfig, createClient } from "wagmi";
-import { providers } from "ethers";
+import Header from "./header"
+import Footer from "./footer"
+import Head from "next/head"
+import Script from "next/script"
+import { WagmiConfig, createClient } from "wagmi"
+import { providers } from "ethers"
 
-import networks from "../utils/networks.json";
+import networks from "../utils/networks.json"
 
 // Provider that will be used when no wallet is connected (aka no signer)
 const provider = providers.getDefaultProvider(
-  networks[networks.selectedChain].rpcUrls[0]
-);
+  networks[networks.selectedChain].rpcUrls[0] + process.env.NEXT_PUBLIC_ALCHEMY_API_KEY
+)
 
 const client = createClient({
   autoConnect: true,
-  provider,
-});
+  provider
+})
 
 export default function Layout({ children }) {
   return (
@@ -36,7 +36,10 @@ export default function Layout({ children }) {
           property="twitter:description"
           content="Zero Knowledge Sudoku Game"
         />
-        <meta property="twitter:image" content="https://zk-sudoku.vercel.app/socialMedia.png" />
+        <meta
+          property="twitter:image"
+          content="https://zk-sudoku.vercel.app/socialMedia.png"
+        />
 
         {/* Open Graph */}
         <meta property="og:type" content="website" key="ogtype" />
@@ -45,7 +48,11 @@ export default function Layout({ children }) {
           content="https://zk-sudoku.vercel.app/"
           key="ogurl"
         />
-        <meta property="og:image" content="https://zk-sudoku.vercel.app/socialMedia.png" key="ogimage" />
+        <meta
+          property="og:image"
+          content="https://zk-sudoku.vercel.app/socialMedia.png"
+          key="ogimage"
+        />
         <meta property="og:title" content="zkSudoku" key="ogtitle" />
         <meta
           property="og:description"
@@ -61,5 +68,5 @@ export default function Layout({ children }) {
         </div>
       </WagmiConfig>
     </>
-  );
+  )
 }

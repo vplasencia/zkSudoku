@@ -12,7 +12,7 @@
   "11155111": {
     "chainId": "11155111",
     "chainName": "Sepolia",
-    "rpcUrls": ["https://rpc.sepolia.org"],
+    "rpcUrls": ["https://eth-sepolia.g.alchemy.com/v2/"],
     "nativeCurrency": {
       "symbol": "ETH"
     },
