@@ -19,9 +19,9 @@ export default function Header() {
           zkSudoku
         </a>
       </Link>
-      <div className="flex justify-center items-center">
+      {/* <div className="flex justify-center items-center">
         <ConnectWalletBtn />
-      </div>
+      </div> */}
     </header>
   );
 }
